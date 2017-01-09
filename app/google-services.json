@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "143670393040",
+    "firebase_url": "https://foodreservation-52a33.firebaseio.com",
+    "project_id": "foodreservation-52a33",
+    "storage_bucket": "foodreservation-52a33.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:143670393040:android:fe11d060a0a3b9b1",
+        "android_client_info": {
+          "package_name": "riksasuviana.apps.foodreservation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "143670393040-gu66kr8ia0eqd4ft7qi08d0cnsuafn3g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "riksasuviana.apps.foodreservation",
+            "certificate_hash": "C7682D430123492CB4C2E516AE4BCE2E2357BA9C"
+          }
+        },
+        {
+          "client_id": "143670393040-kd4oo17ndr64qod0nmqku6fpfgg2c2pa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzKqoMxhu9DUmAoEbSQNoH0FgTAKdpq2U"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "143670393040-kd4oo17ndr64qod0nmqku6fpfgg2c2pa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
