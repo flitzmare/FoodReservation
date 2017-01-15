@@ -15,4 +15,29 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
 
+    <TextView
+        android:text="TextView"
+        android:layout_alignParentBottom="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvr" />
+
+    <Button
+        android:layout_alignParentRight="true"
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="test"
+        android:layout_alignParentTop="true" />
+
+    <Button
+        android:text="Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn2"
+        android:layout_toLeftOf="@+id/btn"
+        android:layout_toStartOf="@+id/btn"
+        android:layout_alignParentTop="true"
+        android:layout_alignBottom="@+id/btn" />
+
 </RelativeLayout>

@@ -12,6 +12,9 @@ public class Restaurant {
         this.setName(name);
     }
 
+    public Restaurant(){
+    }
+
     public String getPhoto() {
         return photo;
     }

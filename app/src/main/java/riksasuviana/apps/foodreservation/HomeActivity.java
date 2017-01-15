@@ -33,6 +33,10 @@ public class HomeActivity extends AppCompatActivity {
         startActivity(new Intent(HomeActivity.this, MenuActivity.class));
     }
 
+    @OnClick(R.id.gd) void gd(){
+        startActivity(new Intent(HomeActivity.this, glideTest.class));
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
