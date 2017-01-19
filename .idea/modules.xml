@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
+=======
+      <module fileurl="file://$PROJECT_DIR$/FoodReservation.iml" filepath="$PROJECT_DIR$/FoodReservation.iml" />
+>>>>>>> refs/remotes/origin/master
       <module fileurl="file://$PROJECT_DIR$/NeedFoodSpeed.iml" filepath="$PROJECT_DIR$/NeedFoodSpeed.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>

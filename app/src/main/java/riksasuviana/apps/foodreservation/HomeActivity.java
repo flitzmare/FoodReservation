@@ -29,6 +29,14 @@ public class HomeActivity extends AppCompatActivity {
         Toast.makeText(HomeActivity.this, "Logout", Toast.LENGTH_LONG).show();
     }
 
+    @OnClick(R.id.menu) void menu(){
+        startActivity(new Intent(HomeActivity.this, MenuActivity.class));
+    }
+
+    @OnClick(R.id.gd) void gd(){
+        startActivity(new Intent(HomeActivity.this, glideTest.class));
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

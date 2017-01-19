@@ -50,6 +50,22 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
     @OnClick(R.id.mymapbtn) void click(){
         text.setText("Longitude : "+longitude+" - Latitude : "+latitude);
+
+        Geocoder geocoder = new Geocoder(getBaseContext(), Locale.getDefault());
+
+        try {
+//
+            List<android.location.Address> addresses = geocoder.getFromLocation(longitude, latitude, 1);
+//
+            String kota = addresses.get(0).getLocality();
+//
+//            if (addresses.size() > 0) {
+//                text.setText(kota);
+//            }
+        }
+        catch (IOException e){
+            e.printStackTrace();
+        }
     }
 
     @Override
@@ -61,22 +77,6 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
                 .findFragmentById(R.id.map);
         mapFragment.getMapAsync(this);
-
-        Geocoder geocoder = new Geocoder(getBaseContext(), Locale.getDefault());
-//
-        try {
-//
-            List<android.location.Address> addresses = geocoder.getFromLocation(longitude, latitude, 1);
-//
-//            String kota = addresses.get(0).getSubLocality();
-//
-//            if (addresses.size() > 0) {
-//                text.setText(kota);
-//            }
-        }
-        catch (IOException e){
-            e.printStackTrace();
-        }
     }
 
     /**
@@ -93,7 +93,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     public void onMapReady(GoogleMap googleMap) {
         gps = new GPSTracker(MapsActivity.this);
         mMap = googleMap;
-        mMap.clear();
+//        mMap.clear();
 
         mMap.setMyLocationEnabled(true);
 
